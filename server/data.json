@@ -1,0 +1,123 @@
+[
+    {   "id": 1, 
+        "warehouse_id": 1,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 2, 
+        "warehouse_id": 2,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 3, 
+        "warehouse_id": 3,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 4, 
+        "warehouse_id": 2,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 5, 
+        "warehouse_id": 3,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 6, 
+        "warehouse_id": 1,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 7, 
+        "warehouse_id": 3,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    },
+    {   "id": 7, 
+        "warehouse_id": 3,
+        "description": "Here is a more detailed summary of the product name, it’s uses, industries and possible attributes that could be used to describe the product.",
+        "name": "pickles",  
+        "productCategory": [
+            "Industrial",
+            "Automotive",
+            "HeavyIndustry"
+        ],
+        "orderedby": "Mark Saunders",
+        "lastordered": "05/24/2018",
+        "location": "Toronto, CA",
+        "quatity": 12000,
+        "status": "instock"
+    }
+]
+   

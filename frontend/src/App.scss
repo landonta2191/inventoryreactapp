@@ -1,0 +1,358 @@
+//COLORS
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/Assets/Typography/Avenir Next.ttf")
+}  
+
+@media only screen and (max-width: 768px) {
+  .topbar {width: 100%;}
+  .topbar__right--avatar, .warehouse-card__inventory {display: none;}
+  .topbar__right--dropdown {padding-right: 20px;}
+  .sidebar {height: 100vh;}
+}
+
+@media only screen and (max-width: 425px) {
+  .topbar {width: 100%;}
+  .topbar__right--avatar, .warehouse-card__inventory, .warehouse-card__contact, .inventory__right, .sidebar__nav p  {display: none;}
+  .topbar__right--dropdown {padding-right: 20px;}
+  .sidebar {height: 100vh;}
+  
+}
+
+body {
+  font-size: 12px;
+  font-family: 'Avenir Next';
+}
+
+.topBarGroup {
+  width: 80%;
+}
+
+
+//TABLE INVENTORY
+.inventory-list {
+  background-color: #F7F7F7;
+  padding: 2em;
+  .inventory-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 76vw;
+    height: 100%;
+    &--table {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 2em 0 2em;
+      h3 {
+        color: #003B77;
+      }
+    }
+    table {
+      border: 1px solid #DEDEDE;
+      width: 100%;
+      border-collapse: collapse;
+      tr {
+        background-color: white;
+        &:nth-child(even) {
+          background-color: #F7F7F7;
+        }
+        th {
+          text-align: left;
+          border-top: 1px solid #DEDEDE;
+          padding: 1em 0em 1em 2em;
+          ;          
+        }
+        td {
+          text-align: left;
+          border-top: 1px solid #DEDEDE;
+          padding: 0em 2em 0em 2em;
+            h3 {
+              text-align: left;
+              color: #003B77;
+            }
+
+            &.firstColumn {
+              width: 40%;
+            }
+        }
+      }  
+    }
+  }
+}
+
+.sideandtopgroup {
+  display: flex;
+}
+//MODAL
+
+.form-container {
+  h1 {
+    font-size: 1.5rem;
+    padding: .5rem 3rem;
+  }
+
+  .warehouseName {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 3rem;
+    width: fit-content;
+  }
+}
+
+
+.contact_group {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-right: 5rem;
+
+  label {
+    margin-top: 1rem;
+
+  }
+  .contact_details {
+    height: 1.5rem;
+  }
+}
+
+.addCont_container {
+  display: flex; 
+  padding: 3rem;
+  justify-content: space-between;
+
+  .address_group {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    label {
+      margin-top: 1rem;
+    }
+
+    .addWarehouseFields {
+      height: 1.5rem;
+      
+
+    }
+  }
+}
+
+.inventory_sub{
+
+  button{
+    margin-left: 5%;
+  }
+}
+
+// inventory detail page
+.productContainer__wrapper {
+  background-color: rgb(247, 247, 247);
+  width: 84vw;
+  height: 100%;
+}
+
+.productContainer {
+  width: 65vw;
+  height: 65vh;
+  margin-left: 5%;
+  margin-top: 1rem;
+  border: 2px solid black;
+  background-color: white;
+
+  .productContainer__sub1 {
+    margin-bottom: 2rem;
+
+    button {
+      margin-left: 85%;
+      margin-bottom: 2rem;
+      height: 3rem;
+      width: 7rem;
+      border-radius: 2px;
+      background-color: rgb(0, 72, 146) ;
+      color: white;
+      font-weight: bold;
+    }
+  }
+}
+
+//sidebar and top bar 
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #004892;
+  width: 30vw;
+  padding: 2rem;
+  padding-top: 0;
+}
+  
+.wordmark {
+  padding-top: 40px;
+}
+  
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 0.5;
+  padding-top: 8rem;
+  font-size: 14px;
+  font-weight: 600; 
+}
+
+.sidebar__nav img {
+  width: 24px;
+  height: 24px;
+  padding-right: 1rem;
+}
+
+.sidebar__nav div {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 20px;
+}
+
+.sidebar__nav div:active {
+  opacity: 1.0;
+}
+
+Link :active{
+  opacity: 1;
+}
+
+//topbar
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.topbar__search {
+  width:381px;
+  height: 40px;
+  border-radius: 2px;
+  margin: 1rem;
+}
+
+.topbar__right--avatar {
+  border-radius: 50%;
+  background-color: grey;
+  width: 40px;
+  margin: 0 20px;
+}
+
+.topbar__right--dropdown {
+  margin-bottom: 15px;
+}
+
+//warehouse
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.locations {
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-left: 60px;
+  color: #3a3a3a;
+}
+
+.filter{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding-right: 50px;
+  color: #004892;
+}
+
+.warehouse {
+  display: flex;
+  flex-direction: column;
+  width: 82vw;
+  background-color: #f7f7f7;
+  
+}
+
+.warehouse-card {
+  height: 200px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.warehouse-card__name {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-top: 10px;
+  color: #3a3a3a;
+ 
+}
+
+.warehouse-card__details {
+  display: flex;
+  justify-content: space-between;    
+  padding-left: 30px;
+  padding-right: 30px;    
+}
+
+.warehouse-card p {
+  color: #7c7c7c;
+  font-size: 14px;
+  font-weight: 600;
+  height: 10px;
+}
+
+.warehouse-card__details h4 {
+  margin: 0;
+}
+
+.warehouse-card__name {
+  color: #004892;
+}
+
+.add-warehouse {
+  display: flex;
+  justify-content: center;
+  height: 65px;
+  width: 65px;
+  color: white;
+  font-size: 32px;
+  background-color: #004892;
+  border-radius: 50%;
+  box-shadow: 5px 10px 50px #7c7c7c;
+  margin-left: 75vw;
+  margin-top: 10px;
+  margin-bottom: 200px;
+
+ 
+}
+
+.App {
+  display: flex;
+}  
